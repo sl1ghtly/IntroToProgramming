@@ -1,0 +1,32 @@
+/* Practical P05C- Question 1
+Eryk Gloginski
+04/11/2020
+Program PSEUDO code*/
+
+/*
+
+GET carValue
+GET age
+GET milesDriven 
+GET penaltyPoints
+
+CALC standardPremium (carValue * 0.07)
+
+IF milesDriven > 15000
+   ADD 70 to standardPremium
+
+IF age < 25 OR carValue > 18000
+   ADD 120 to standardPremium
+   
+IF age >= 30 AND penaltyPoints < 5
+   CALC reduction (standardPremium * 0.40)
+   REMOVE reduction from standardPremium
+   DISPLAY standardPremium
+THEN age >= 30 AND penaltyPoints < 8
+   CALC reduction (standardPremium * 0.10)
+   REMOVE reduction from standardPremium
+   DISPLAY standardPremium
+ELSE
+   DISPLAY standardPremium
+
+*/
